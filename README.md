@@ -19,6 +19,8 @@ If you encounter bugs or wish to contribute:
 <details>
   <summary></summary>
   
+### 1.0.1—1.21.x
+* Fixed a crash when saving mod settings from the config screen
 ### 1.0.0—1.21.x
 * Initial Release
 </details>
