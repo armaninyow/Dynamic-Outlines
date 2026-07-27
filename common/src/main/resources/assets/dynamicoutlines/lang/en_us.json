@@ -1,0 +1,62 @@
+{
+	"config.dynamicoutlines.title": "Dynamic Outlines",
+	"config.dynamicoutlines.category.general": "General",
+	"config.dynamicoutlines.category.blocks": "Blocks",
+	"config.dynamicoutlines.category.entities": "Entities",
+
+	"config.dynamicoutlines.missing_tool_visibility": "Missing Tool Outline",
+	"config.dynamicoutlines.missing_tool_visibility.tooltip": "Controls the outline when breaking the block wouldn't give you anything.\n\nAlways Show:\nAlways shows the non-interactive outline color, even when you're holding the wrong tool (or no tool at all) for the block you're looking at.\n\nAlways Hide:\nHides the outline whenever you're holding the wrong tool for the block, even if you're holding something you could otherwise place against it.\n\nHide Unless Placing:\nHides the outline when you're missing the correct tool, unless you're holding something placeable that you could set down against it.",
+
+	"config.dynamicoutlines.missing_tool_visibility.always_show": "Always Show",
+	"config.dynamicoutlines.missing_tool_visibility.always_hide": "Always Hide",
+	"config.dynamicoutlines.missing_tool_visibility.hide_unless_placing": "Hide Unless Placing",
+
+	"config.dynamicoutlines.show_outline_when_placement_blocked": "Block Placement Obstruction",
+	"config.dynamicoutlines.show_outline_when_placement_blocked.tooltip": "When enabled, the outline always shows regardless of whether placement would succeed.",
+
+	"config.dynamicoutlines.currently_breaking_override": "Currently Breaking Override",
+	"config.dynamicoutlines.currently_breaking_override.tooltip": "When disabled, a block keeps its normal outline color and visibility even while you're actively breaking it.",
+
+	"config.dynamicoutlines.stroke_width": "Outline Stroke Width",
+	"config.dynamicoutlines.stroke_width.tooltip": "Controls how thick block and entity outlines are drawn.",
+
+	"config.dynamicoutlines.outline_alpha": "Outline Transparency",
+	"config.dynamicoutlines.outline_alpha.tooltip": "Global transparency for all block and entity outlines.",
+
+	"config.dynamicoutlines.blend_with_light": "Outline Light Level Blending",
+	"config.dynamicoutlines.blend_with_light.tooltip": "When disabled, outlines always render at full brightness regardless of lighting.",
+
+	"config.dynamicoutlines.outline_invisible_mobs": "Outline Invisible Mobs",
+	"config.dynamicoutlines.outline_invisible_mobs.tooltip": "When enabled, invisible entities can still be outlined like any other entity.",
+
+	"config.dynamicoutlines.block_outline_mode": "Block Outlines",
+	"config.dynamicoutlines.block_outline_mode.tooltip": "Choose which blocks get outlined.",
+
+	"config.dynamicoutlines.block_outline_mode.none": "None",
+	"config.dynamicoutlines.block_outline_mode.interactive": "Interactive Blocks",
+	"config.dynamicoutlines.block_outline_mode.non_interactive": "Non-Interactive Blocks",
+	"config.dynamicoutlines.block_outline_mode.all": "All",
+
+	"config.dynamicoutlines.interactive_color": "Interactive Block Color",
+	"config.dynamicoutlines.interactive_color.tooltip": "Outline color used for any interactive block.",
+
+	"config.dynamicoutlines.noninteractive_color": "Non-Interactive Block Color",
+	"config.dynamicoutlines.noninteractive_color.tooltip": "Outline color used for ordinary blocks.",
+
+	"config.dynamicoutlines.entity_outline_mode": "Entity Outlines",
+	"config.dynamicoutlines.entity_outline_mode.tooltip": "Choose which entities get outlined.",
+
+	"config.dynamicoutlines.entity_outline_mode.none": "None",
+	"config.dynamicoutlines.entity_outline_mode.passive_neutral_hostile": "Passive/Neutral/Hostile",
+	"config.dynamicoutlines.entity_outline_mode.entity_interaction": "Entity Interaction",
+	"config.dynamicoutlines.entity_outline_mode.all": "All",
+
+	"config.dynamicoutlines.entity_color": "Passive/Neutral Entity Color",
+	"config.dynamicoutlines.entity_color.tooltip": "Outline color used when targeting a passive or neutral entity.",
+
+	"config.dynamicoutlines.enemy_color": "Hostile Entity Color",
+	"config.dynamicoutlines.enemy_color.tooltip": "Outline color used when targeting a hostile entity.",
+
+	"config.dynamicoutlines.entity_interaction_color": "Entity Interaction Color",
+	"config.dynamicoutlines.entity_interaction_color.tooltip": "Overrides an entity's outline color when you're holding an item that unlocks a special interaction with it."
+}
