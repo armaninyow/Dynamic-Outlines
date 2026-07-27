@@ -19,6 +19,28 @@ If you encounter bugs or wish to contribute:
 <details>
   <summary></summary>
   
+### 2.0.0—26.x
+* Added support for Minecraft 26.1 to 26.2
+* Added support for Golden Dandelions
+* Added support for Sulfur Cubes
+* Added a new setting that lets outline colors dim to match how dark it is around them
+* Added a new setting to control whether invisible mobs can be outlined at all
+* Added a new setting to control outlines when placement blocked so blocked spots stay hidden
+* Added a new setting to let block outlines keep their normal color and visibility while being actively broken
+* Fixed offhand items not being recognized for entity and block interaction highlighting
+* Fixed block outlines not matching what you can actually do while sneaking
+* Fixed block outlines no longer show as placeable on a face where you actually can't place anything
+* Fixed copper chests, doors, and trapdoors while holding honeycomb or an axe and while sneaking
+* Fixed spawn eggs not being recognized when used on a monster spawner
+* Fixed command blocks not showing up as interactive
+* Fixed farmland not showing as interactive when holding a plantable seed or crop
+* Fixed farmland still showing as plantable even when something's already growing on it
+* Fixed neutral mobs not switching to their hostile outline color when provoked
+* Fixed cake so it no longer appears interactive when your hunger is already full
+* Fixed outlines of horses, donkeys, mules, llamas, and zombie horses so it reads their Temper value
+* Fixed beds so that standing near either the head or the foot is now judged correctly
+* Fixed nautilus and zombie nautilus outlines not correctly reflecting feeding
+* Replaced Cloth Config with YetAnotherConfigLib (YACL) for the in-game config screen
 ### 1.0.1—1.21.x
 * Fixed a crash when saving mod settings from the config screen
 ### 1.0.0—1.21.x
