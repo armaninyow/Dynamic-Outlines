@@ -19,6 +19,16 @@ If you encounter bugs or wish to contribute:
 <details>
   <summary></summary>
   
+### 2.1.0—26.x
+* Added support for Minecraft 26.3
+* Updated Fabric Loader to 0.19.5 (required for 26.3)
+* Fixed hoe and shovel outlines not turning yellow when creating dirt paths and farmlands
+* Fixed axe outline not turning yellow when stripping, scraping oxidation and removing wax
+* Fixed composter outline not turning yellow when holding a compostable item
+* Fixed sapling outline not turning yellow when holding a bone meal
+* Fixed redstone dust outline not turning black when a cross is connected to another redstone dust and is not interactive
+* Fixed Enderman outline not turning red when aggravated
+* Fixed outline disappearing when placing signs and hanging signs on the side of a block
 ### 2.0.0—26.x
 * Added support for Minecraft 26.1 to 26.2
 * Added support for Golden Dandelions
